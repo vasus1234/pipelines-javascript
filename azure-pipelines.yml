@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool: selfhosted
-  # vmImage: ubuntu-latest
+pool: #selfhosted
+   vmImage: ubuntu-latest
 
 steps:
 - task: NodeTool@0
